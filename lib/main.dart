@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => ProductList(),
       child: MaterialApp(
-        title: 'Minha Loja',
+        title: 'Flutter Demo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch().copyWith(
             primary: Colors.purple,
