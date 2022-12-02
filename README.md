@@ -1,6 +1,6 @@
 # Aplicativo Loja
 
-Projeto Feito em Flutter/Dart, Banco de dados Firebase
+Projeto Feito em Flutter/Dart/Firebase
 
 ## Projeto Relacionado ao Curso Udemy de Flutter
 
