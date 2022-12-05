@@ -84,11 +84,10 @@ class _ProductFormPageState extends State<ProductFormPage> {
     setState(() => _isLoading = true);
 
     try {
-      await Provider.of<ProductList>(
+      Provider.of<ProductList>(
         context,
         listen: false,
       ).saveProduct(_formData);
-
       Navigator.of(context).pop();
     } catch (error) {
       await showDialog<void>(
